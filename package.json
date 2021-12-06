@@ -1,0 +1,27 @@
+{
+  "name": "clever-parser",
+  "version": "1.0.0",
+  "description": "JS script to read and parse through the BC River Forecast Center 10-day CLEVER river forecast model data",
+  "main": "clever-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smalott16/clever-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smalott16/clever-parser/issues"
+  },
+  "homepage": "https://github.com/smalott16/clever-parser#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^2.10.377",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
